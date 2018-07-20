@@ -8,11 +8,11 @@ Created on Mon Jul  2 12:24:42 2018
 import psycopg2
 class database:
     def __init__(self):
-        self._username = 'tableau_user'
-        self._password = '0irziINo'
+        self._username = 'username'
+        self._password = 'password'
         self._port = '5439'
-        self._host = 'fusion-instance.cbquucohcb2s.us-east-1.redshift.amazonaws.com'
-        self._dbname = 'reporting_db'
+        self._host = 'host'
+        self._dbname = 'db'
     
     def query(self, sql_statement):
         data = 'error occured'
